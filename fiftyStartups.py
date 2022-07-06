@@ -14,10 +14,12 @@ y = df.iloc[:, -1 :]
 #%% Check the correlation between dependent variables and ind. variables.
 plt.figure
 sns.pairplot(df, x_vars= x, y_vars= y, hue = "State")
+plt.savefig('./plots/correlation.png')
 
 #%%checkout the multicollinearity 
 plt.figure
 sns.pairplot(x.iloc[:, :3])
+plt.savefig('./plots/multicollinearity.png')
 
 
 #%% check the peak to peak values of the features
@@ -73,6 +75,7 @@ def plot_features(FeatureIdxIn):
     plt.xlabel(selectedFeature)
     #Set the legend
     plt.legend()
+    plt.savefig(f'./plots/{selectedFeature}.png')
 
 for featureIdx in range(len(cols[0:3])):
     plot_features(featureIdx)
