@@ -42,6 +42,7 @@ Notice that both R&D, and marketing shows a strong positive correlation with pro
 get it out there to the users/ customers.
 
 ![Correlation check](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/correlation.png)
+
 It is also important that we check for multicollinearity. Hmm..., there's some correlation between R&D and marketing. Maybe the more R&D a startup invests in, the more stuff to show off through marketing channels?
 
 ![multicollinearity check](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/multicollinearity.png)
