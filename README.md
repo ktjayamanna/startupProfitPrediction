@@ -49,11 +49,16 @@ It is also important that we check for multicollinearity. Hmm..., there's some c
 After building the model, we tested with some data and plotted the predictions along with the test labels. Notice that we did that for all three numerical features. The big green line is the mathematical equation for our model (considering one input feature at a time).
 
 * R&D against profits
-* ![R&D](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/R%26D%20Spend.png)
+
+![R&D](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/R%26D%20Spend.png)
+
 * Administration against profits
-* ![Admin](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Administration.png)
+
+![Admin](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Administration.png)
+
 * marketing against profits
-* ![Marketing](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Marketing%20Spend.png)
+
+![Marketing](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Marketing%20Spend.png)
 
 
 
