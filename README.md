@@ -40,17 +40,20 @@ $ python fiftyStartUps.py
 After identifying the dependent and independent variables, we check the correlation between dependent variables and ind. variables. 
 Notice that both R&D, and marketing shows a strong positive correlation with profits. It makes sense right? You need a great product that is perfected over time as well as a killer marketing strategy to
 get it out there to the users/ customers.
+
 ![Correlation check](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/correlation.png)
 It is also important that we check for multicollinearity. Hmm..., there's some correlation between R&D and marketing. Maybe the more R&D a startup invests in, the more stuff to show off through marketing channels?
+
 ![multicollinearity check](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/multicollinearity.png)
 
 After building the model, we tested with some data and plotted the predictions along with the test labels. Notice that we did that for all three numerical features. The big green line is the mathematical equation for our model (considering one input feature at a time).
+
 * R&D against profits
-    ![R&D](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/R%26D%20Spend.png)
+![R&D](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/R%26D%20Spend.png)
 * Administration against profits
-    ![Admin](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Administration.png)
+![Admin](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Administration.png)
 * marketing against profits
-    ![Marketing](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Marketing%20Spend.png)
+![Marketing](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/Marketing%20Spend.png)
 
 
 
