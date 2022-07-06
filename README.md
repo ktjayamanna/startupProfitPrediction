@@ -47,7 +47,7 @@ It is also important that we check for multicollinearity. Hmm..., there's some c
 
 ![multicollinearity check](https://github.com/ktjayamanna/startupProfitPrediction/blob/main/plots/multicollinearity.png)
 
-After building the model, we tested with some data and plotted the predictions along with the test labels. Notice that we did that for all three numerical features. The big green line is the mathematical equation for our model (considering one input feature at a time).
+After building the model, we tested with some data and plotted the predictions along with the test labels. Notice that we did that for all three numerical features. The big green line is the mathematical equation for our model.
 
 * R&D against profits
 
