@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 import pickle
-from flask import Flask, request, url_for, redirect, render_template, jsonify
+
+# from flask import Flask, request, url_for, redirect, render_template, jsonify
+from flask import Flask, request, render_template
 import os
 
 app = Flask(__name__)
@@ -55,4 +57,4 @@ def predict():
 
 # run the app
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8010)
+    app.run(host="0.0.0.0", port=8011)
