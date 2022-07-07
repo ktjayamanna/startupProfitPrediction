@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Startup Profit Prjector</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h5>We can forecast your startup's profits. Enter the information below.</h5>
+    <h6>Causion: This project is intended for demo purposes only. We are not liable for any financial losses caused by using this tool.</h6>
+
+     <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}"method="POST">
+      <input type="text" name="rnd" placeholder="Research and Development Cost in USD" required="required" /><br>
+    	<input type="text" name="admin" placeholder="Administration Cost in USD" required="required" /><br>
+      <input type="text" name="marketing" placeholder="Marketing Cost in USD" required="required" /><br>
+      <br>
+      <p>What state is your company located?</p>
+      <input type="radio" id="ny" name="state" value="New York">
+      <label for="ny">New York</label><br>
+      <input type="radio" id="ca" name="state" value="California">
+      <label for="California">California</label><br>
+      <input type="radio" id="fl" name="state" value="Florida">
+      <label for="Florida">Florida</label>
+      <input type="radio" id="other" name="state" value="Other">
+      <label for="other">Other</label>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+    <br>
+
+   <br>
+   <br>
+   
+  
+   
+ </div>
+</body>
+<br>
+<article> 
+ {{pred}}
+</article>
+</br>
+</html>
