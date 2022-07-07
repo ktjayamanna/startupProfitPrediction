@@ -10,6 +10,9 @@
 This project is based on the 50 startups public dataset available on Kaggle.
 
  - [Dataset](https://www.kaggle.com/datasets/farhanmd29/50-startups)
+
+Frontend template was borrowed from here.
+ - [Frontend](https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99)
  
 
 
