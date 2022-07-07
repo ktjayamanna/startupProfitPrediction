@@ -26,7 +26,7 @@ $ pip install -r requirements
 ```
 
 ## Deployment
-To access the live demo, click here (https://startup50predictorv4.herokuapp.com/)
+[To access the live demo, click here](https://startup50predictorv4.herokuapp.com/)
 
 To deploy this project run
 
