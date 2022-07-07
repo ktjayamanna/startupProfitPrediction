@@ -57,4 +57,7 @@ def predict():
 
 # run the app
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8011)
+    port = int(
+        os.environ.get("PORT", 5000)
+    )  # Define port so we can map container port to localhost
+    app.run(host="0.0.0.0", port=port)  # Define 0.0.0.0 for Docker
