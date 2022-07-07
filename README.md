@@ -26,6 +26,7 @@ $ pip install -r requirements
 ```
 
 ## Deployment
+To access the live demo, click here (https://startup50predictorv4.herokuapp.com/)
 
 To deploy this project run
 
@@ -35,7 +36,7 @@ $ python fiftyStartUps.py
 
 
 
-## Screenshots
+## Analysis
 
 After identifying the dependent and independent variables, we check the correlation between dependent variables and ind. variables. 
 Notice that both R&D, and marketing shows a strong positive correlation with profits. It makes sense right? You need a great product that is perfected over time as well as a killer marketing strategy to
